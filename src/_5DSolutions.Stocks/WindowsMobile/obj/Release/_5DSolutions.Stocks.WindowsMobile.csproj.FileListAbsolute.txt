@@ -1,0 +1,10 @@
+D:\5DSolutions\software\_5DSolutions.Stocks\WindowsMobile\bin\Release\_5DSolutions.Stocks.WindowsMobile.dll
+D:\5DSolutions\software\_5DSolutions.Stocks\WindowsMobile\bin\Release\_5DSolutions.Stocks.WindowsMobile.pdb
+D:\5DSolutions\software\_5DSolutions.Stocks\WindowsMobile\obj\Release\ResolveAssemblyReference.cache
+D:\5DSolutions\software\_5DSolutions.Stocks\WindowsMobile\obj\Release\_5DSolutions.Stocks.WindowsMobile.dll
+D:\5DSolutions\software\_5DSolutions.Stocks\WindowsMobile\obj\Release\_5DSolutions.Stocks.WindowsMobile.pdb
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\WindowsMobile\bin\Release\_5DSolutions.Stocks.WindowsMobile.dll
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\WindowsMobile\bin\Release\_5DSolutions.Stocks.WindowsMobile.pdb
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\WindowsMobile\obj\Release\ResolveAssemblyReference.cache
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\WindowsMobile\obj\Release\_5DSolutions.Stocks.WindowsMobile.dll
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\WindowsMobile\obj\Release\_5DSolutions.Stocks.WindowsMobile.pdb

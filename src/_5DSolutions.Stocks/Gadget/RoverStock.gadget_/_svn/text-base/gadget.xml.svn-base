@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+  <name>RoverStock</name>
+  <namespace>_5DSolutions.Stocks.Gadget</namespace>
+  <version>0.99</version>
+  <author name="5D Solutions LLC">
+    <info url="http://www.5DOnline.com" />
+    </author>
+  <copyright>2009</copyright>
+  <description>
+    Displays stock market price changes for your stocks
+  </description>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="RoverStock.html" />
+      <permissions>full</permissions>
+      <platform minPlatformVersion="0.3" />
+    </host>
+  </hosts>
+</gadget>

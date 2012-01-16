@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="_5DSolutions.Stocks.Presentation.Wpf.Views.StockView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Background="Transparent" >
+    <Border CornerRadius="5">
+        <StackPanel>
+            
+            <Expander ExpandDirection="Down" Foreground="White">
+                <Expander.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock VerticalAlignment="Center" FontSize="10" MinWidth="30" Text="{Binding Mode=OneWay, Path=Symbol}" />
+                        <TextBlock VerticalAlignment="Center" MinWidth="35" Text="{Binding Mode=OneWay, Path=MarketPrice, StringFormat='{}{0:C}'}" />
+                        <Border Margin="4,0,2,0" Width="1" Background="DarkGray" />
+                        <StackPanel Margin="2">
+                            <TextBlock FontSize="9" Text="{Binding Mode=OneWay, Path=TotalMarketValue, StringFormat='{}{0:C}' }" />
+                            <Border Height="1" Background="White" />
+                            <TextBlock FontSize="9" Text="{Binding Mode=OneWay, Path=TotalPurchaseCost, StringFormat='{}{0:C}'}" />
+                        </StackPanel>
+                        <TextBlock Margin="3" Text="{Binding Mode=OneWay, Path=ReturnOnInvestmentPercent, StringFormat='{}{0:0%}'}" />
+                        <Button Margin="3" 
+                        Command="{Binding Path=DeleteCommand, Mode=OneTime}" 
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Foreground="Red" 
+                        Padding="2"
+                        Content="X">
+                        </Button>
+                    </StackPanel>
+                </Expander.Header>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Margin="1" Text="# " />
+                    <TextBox MinWidth="20" 
+                             MaxWidth="30"
+                             BorderThickness="1"
+                             BorderBrush="White"
+                             Foreground="White"
+                             Background="Transparent"
+                             Text="{Binding Mode=TwoWay, Path=PurchaseQuantity, UpdateSourceTrigger=LostFocus}" />
+                    <TextBlock Text=" @ " />
+                    <TextBox MaxWidth="60" 
+                             MinWidth="30" 
+                             BorderThickness="1"
+                             BorderBrush="White"
+                             Foreground="White"
+                             Background="Transparent"
+                             Text="{Binding Mode=TwoWay, Path=PurchasePrice, UpdateSourceTrigger=LostFocus, StringFormat='{}{0:C}'}" />
+                    <Button Margin="5,0,0,0" 
+                            Padding="2"
+                            Background="Transparent"
+                            Foreground="Green"
+                            Command="{Binding Path=SaveCommand, Mode=OneTime}"
+                            FontSize="10">Save Purchase</Button>
+                </StackPanel>
+            </Expander>
+        </StackPanel>
+    </Border>
+
+    <!--<StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="{Binding Path=Symbol, Mode=OneWay}" />
+            <TextBlock Text="{Binding Path=MarketPrice, Mode=OneWay}" />
+        </StackPanel>
+    </StackPanel>-->
+</UserControl>

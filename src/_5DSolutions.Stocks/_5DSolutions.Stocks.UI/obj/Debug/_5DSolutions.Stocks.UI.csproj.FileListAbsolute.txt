@@ -1,0 +1,14 @@
+D:\5DSolutions\software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\obj\Debug\ResolveAssemblyReference.cache
+D:\5DSolutions\software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\bin\Debug\_5DSolutions.Stocks.UI.dll
+D:\5DSolutions\software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\bin\Debug\_5DSolutions.Stocks.UI.pdb
+D:\5DSolutions\software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\bin\Debug\_5DSolutions.Stocks.LowerLevelBusiness.dll
+D:\5DSolutions\software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\bin\Debug\_5DSolutions.Stocks.LowerLevelBusiness.pdb
+D:\5DSolutions\software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\obj\Debug\_5DSolutions.Stocks.UI.dll
+D:\5DSolutions\software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\obj\Debug\_5DSolutions.Stocks.UI.pdb
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\bin\Debug\_5DSolutions.Stocks.UI.dll
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\bin\Debug\_5DSolutions.Stocks.UI.pdb
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\bin\Debug\_5DSolutions.Stocks.LowerLevelBusiness.dll
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\bin\Debug\_5DSolutions.Stocks.LowerLevelBusiness.pdb
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\obj\Debug\ResolveAssemblyReference.cache
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\obj\Debug\_5DSolutions.Stocks.UI.dll
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\_5DSolutions.Stocks.UI\obj\Debug\_5DSolutions.Stocks.UI.pdb

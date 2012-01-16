@@ -1,0 +1,15 @@
+D:\5DSolutions\software\_5DSolutions.Stocks\DataAccess\bin\Release\_5DSolutions.Stocks.DataAccess.dll
+D:\5DSolutions\software\_5DSolutions.Stocks\DataAccess\bin\Release\_5DSolutions.Stocks.DataAccess.pdb
+D:\5DSolutions\software\_5DSolutions.Stocks\DataAccess\obj\Release\ResolveAssemblyReference.cache
+D:\5DSolutions\software\_5DSolutions.Stocks\DataAccess\obj\Release\_5DSolutions.Stocks.DataAccess.dll
+D:\5DSolutions\software\_5DSolutions.Stocks\DataAccess\obj\Release\_5DSolutions.Stocks.DataAccess.pdb
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\DataAccess\bin\Release\_5DSolutions.Stocks.DataAccess.dll
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\DataAccess\bin\Release\_5DSolutions.Stocks.DataAccess.pdb
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\DataAccess\obj\Release\ResolveAssemblyReference.cache
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\DataAccess\obj\Release\_5DSolutions.Stocks.DataAccess.dll
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\DataAccess\obj\Release\_5DSolutions.Stocks.DataAccess.pdb
+D:\Development\5DSolutionsLLC\Software\_5DSolutions.Stocks\DataAccess\bin\Release\_5DSolutions.Stocks.DataAccess.dll
+D:\Development\5DSolutionsLLC\Software\_5DSolutions.Stocks\DataAccess\bin\Release\_5DSolutions.Stocks.DataAccess.pdb
+D:\Development\5DSolutionsLLC\Software\_5DSolutions.Stocks\DataAccess\obj\Release\ResolveAssemblyReference.cache
+D:\Development\5DSolutionsLLC\Software\_5DSolutions.Stocks\DataAccess\obj\Release\_5DSolutions.Stocks.DataAccess.dll
+D:\Development\5DSolutionsLLC\Software\_5DSolutions.Stocks\DataAccess\obj\Release\_5DSolutions.Stocks.DataAccess.pdb

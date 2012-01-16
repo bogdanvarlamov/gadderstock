@@ -1,0 +1,18 @@
+﻿<Page x:Class="_5DSolutions.Stocks.Gadget.UI.Docked"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Docked"
+    ShowsNavigationUI="False">
+    <Canvas>
+
+        <ScrollViewer HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MaxHeight="110" MaxWidth="120">
+            <StackPanel>
+                <ListView x:Name="uiStocksList" ItemsSource="{Binding}" />
+                <StackPanel Orientation="Horizontal">
+                    <TextBox x:Name="uiAddSymbolTextBox" MinWidth="50" Keyboard.KeyDown="uiAddSymbolTextBox_KeyDown"/>
+                    <Button x:Name="uiAddSymbolButton" MaxWidth="60" Click="uiAddSymbolButton_Click">Add</Button>
+                </StackPanel>
+            </StackPanel>
+        </ScrollViewer>
+    </Canvas>
+</Page>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/software/!svn/ver/19/_5DSolutions.Stocks/DataAccess/StockData
+END
+YahooCSVStockDataProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/software/!svn/ver/19/_5DSolutions.Stocks/DataAccess/StockData/YahooCSVStockDataProvider.cs
+END
+WebStockDataProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/software/!svn/ver/19/_5DSolutions.Stocks/DataAccess/StockData/WebStockDataProvider.cs
+END
+IStringStockDataProvider.cs
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/software/!svn/ver/19/_5DSolutions.Stocks/DataAccess/StockData/IStringStockDataProvider.cs
+END

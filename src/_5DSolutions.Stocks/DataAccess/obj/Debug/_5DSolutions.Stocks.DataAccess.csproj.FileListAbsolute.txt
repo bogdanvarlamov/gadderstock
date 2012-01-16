@@ -1,0 +1,10 @@
+D:\5DSolutions\software\_5DSolutions.Stocks\DataAccess\bin\Debug\_5DSolutions.Stocks.DataAccess.dll
+D:\5DSolutions\software\_5DSolutions.Stocks\DataAccess\bin\Debug\_5DSolutions.Stocks.DataAccess.pdb
+D:\5DSolutions\software\_5DSolutions.Stocks\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\5DSolutions\software\_5DSolutions.Stocks\DataAccess\obj\Debug\_5DSolutions.Stocks.DataAccess.dll
+D:\5DSolutions\software\_5DSolutions.Stocks\DataAccess\obj\Debug\_5DSolutions.Stocks.DataAccess.pdb
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\DataAccess\bin\Debug\_5DSolutions.Stocks.DataAccess.dll
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\DataAccess\bin\Debug\_5DSolutions.Stocks.DataAccess.pdb
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\DataAccess\obj\Debug\ResolveAssemblyReference.cache
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\DataAccess\obj\Debug\_5DSolutions.Stocks.DataAccess.dll
+D:\Development\5DSolutions\Software\_5DSolutions.Stocks\DataAccess\obj\Debug\_5DSolutions.Stocks.DataAccess.pdb

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.28" name="_5DSolutions.Stocks.Gadget.exe" publicKeyToken="6d9d5c6c1e317575" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="_5DSolutions.Stocks.Gadget" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="_5DSolutions.Stocks.Gadget.exe" parameters="" />
+    <hostInBrowser xmlns="urn:schemas-microsoft-com:asm.v3" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="_5DSolutions.Stocks.Business.dll" size="6656">
+      <assemblyIdentity name="_5DSolutions.Stocks.Business" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>BpnMLd3/uD3BWFltrY+3W7bTF7c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="_5DSolutions.Stocks.DataAccess.dll" size="6656">
+      <assemblyIdentity name="_5DSolutions.Stocks.DataAccess" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>2/EPu1V1Lp74OxBz8bkNzbqHf3c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="_5DSolutions.Stocks.Gadget.exe" size="8704">
+      <assemblyIdentity name="_5DSolutions.Stocks.Gadget" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>WIBsVz5FfGdv3kZQHQ96QUnkFXM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="_5DSolutions.Stocks.Presentation.dll" size="31232">
+      <assemblyIdentity name="_5DSolutions.Stocks.Presentation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1uvRJESWYTMhYYx1sAcOYUn4sTg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MvvmFoundation.Wpf.dll" size="12800">
+      <assemblyIdentity name="MvvmFoundation.Wpf" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>7qgKpwLkMeWAd9QWpu31KD9QxAw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Bogdan-PC\Bogdan" issuerKeyHash="b2424b60b708b55c3f9082d74dbd68f62996e346" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>GB7ZL+N1z4qOuvBroujcQ4uwo78=</DigestValue></Reference></SignedInfo><SignatureValue>bVH945SraFe4NdvUeRWouptLwl0I+3KbMRCcwZiP55+4dEyKMsIuNBmqL/k3m+r4acguTXEWyiLgF9sXD3wnHK+y/iPmKgrBedKnORBtZg2lXhdK6Jlv3fkl6ijAp2pI+TuhayIDG37IU70B0YwiiknUAY4gYXKQtPnWb4HpZmM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>s0LPRrlzgFZRgPgBFp9rY/sdNHc30W1oSOe6ERnZUHkN8UnynExn31P2E4b3/kvbgCHprAU4yaH2IUG1YYAFdB19Nbb10cwLQ5D9QcOsaWcGE/kf6WL3onXTjYS2gdNGa+JM6F4Bvkaf1LSmBf2xVF0dKLBZ0TfPufdxh8rjLLc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bfa3b08b43dce8a26bf0ba8e8acf75e32fd91e18" Description="" Url=""><as:assemblyIdentity version="1.0.0.28" name="_5DSolutions.Stocks.Gadget.exe" publicKeyToken="6d9d5c6c1e317575" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Bogdan-PC\Bogdan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>UEceaKOuafiUgpSE8Xu1KmR91hc=</DigestValue></Reference></SignedInfo><SignatureValue>L8vra8O8GNuB6XOfPs6NMEgUyeCrvTqt3d/SpFbhQ3xgAcyestEtsoePNEDUFeidFmdnLoQV4toozE83Hs2zy4WwLZuJgMSBnBjeefqmztHmTWUgna0i4y74d3qxtsolvOz6O7/3CpFmqs3qdZV2CCgXUkXZRKOTGBZMKQ6nPdE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>s0LPRrlzgFZRgPgBFp9rY/sdNHc30W1oSOe6ERnZUHkN8UnynExn31P2E4b3/kvbgCHprAU4yaH2IUG1YYAFdB19Nbb10cwLQ5D9QcOsaWcGE/kf6WL3onXTjYS2gdNGa+JM6F4Bvkaf1LSmBf2xVF0dKLBZ0TfPufdxh8rjLLc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQbiPWpikHabpJ0cH2zuNjfTANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAAQgBvAGcAZABhAG4ALQBQAEMAXABCAG8AZwBkAGEAbjAeFw0wOTA3MjkwMTE2MDNaFw0xMDA3MjkwNzE2MDNaMCsxKTAnBgNVBAMeIABCAG8AZwBkAGEAbgAtAFAAQwBcAEIAbwBnAGQAYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCzQs9GuXOAVlGA+AEWn2tj+x00dzfRbWhI57oRGdlQeQ3xSfKcTGffU/YThvf+S9uAIemsBTjJofYhQbVhgAV0HX01tvXRzAtDkP1Bw6xpZwYT+R/pYveiddONhLaB00Zr4kzoXgG+Rp/UtKYF/bFUXR0osFnRN8+593GHyuMstwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBADrjrvxNGZhmIXcCSC8LrU8TjqvbHx8vMU9RjuEUDxwAzqQi9F+cqFzSeBflMTpfcLLacVi7kxsARH4dJL7d0iJqDiF17H7veHbiVRC2CrymfvKyJohNu3eVa+oFyfu8O5cKbqxNJre5e9g2/UsF0hDc0CIr2HSX86JrV4dvRQWZ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

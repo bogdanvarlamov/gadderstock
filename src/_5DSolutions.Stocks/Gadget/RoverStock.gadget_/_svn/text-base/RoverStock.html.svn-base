@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>RoverStock</title>
+<style type="text/css">
+
+body { height:120px; width: 140px; margin: 5px 5px 5px 5px; background-color:Transparent;}
+
+</style>
+
+<!--<script type="text/javascript" >
+
+document.onreadystatechange = function()
+{    
+    if(document.readyState=="complete")
+    {
+        System.Gadget.settingsUI = "Settings.html";
+    }        
+}
+
+</script>-->
+
+</head>
+<body>
+<iframe src="_5DSolutions.Stocks.Gadget.xbap" />
+</body>
+</html>

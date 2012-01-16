@@ -1,0 +1,54 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+using _5DSolutions.Stocks.DataAccess;
+using _5DSolutions.Stocks.LowerLevelBusiness;
+using _5DSolutions.Stocks.LowerLevelBusiness.DataConverters;
+
+namespace TestingApp
+{
+    /// <summary>
+    /// Interaction logic for Window1.xaml
+    /// </summary>
+    public partial class Window1 : Window
+    {
+        public Window1()
+        {
+            InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (string.Empty != uiSymbolBox.Text)
+            {
+
+                YahooCSVStockDataProvider prov = new YahooCSVStockDataProvider();
+
+                string tmp = prov.GetLatestRawStockData(uiSymbolBox.Text);
+
+                YahooCSVStockDataConverter<StockInfo> conv = new YahooCSVStockDataConverter<StockInfo>();
+
+                List<StockInfo> stocks = conv.ConvertTo(tmp, typeof(List<StockInfo>)) as List<StockInfo>;
+
+                TextBox t = new TextBox();
+
+                StockInfo stock = stocks.First();
+
+                t.Text = string.Format("{0}: ${1} (on {2} at {3})", stock.Symbol, stock.Price, stock.Timestamp.ToShortDateString(), stock.Timestamp.ToShortTimeString());
+                uiScroller.Content = t;
+            }
+
+        }
+    }
+}
