@@ -1,5 +1,0 @@
-D:\5DSolutions\software\_5DSolutions.Stocks\LowerLevelBusiness\bin\Release\_5DSolutions.Stocks.LowerLevelBusiness.dll
-D:\5DSolutions\software\_5DSolutions.Stocks\LowerLevelBusiness\bin\Release\_5DSolutions.Stocks.LowerLevelBusiness.pdb
-D:\5DSolutions\software\_5DSolutions.Stocks\LowerLevelBusiness\obj\Release\ResolveAssemblyReference.cache
-D:\5DSolutions\software\_5DSolutions.Stocks\LowerLevelBusiness\obj\Release\_5DSolutions.Stocks.LowerLevelBusiness.dll
-D:\5DSolutions\software\_5DSolutions.Stocks\LowerLevelBusiness\obj\Release\_5DSolutions.Stocks.LowerLevelBusiness.pdb

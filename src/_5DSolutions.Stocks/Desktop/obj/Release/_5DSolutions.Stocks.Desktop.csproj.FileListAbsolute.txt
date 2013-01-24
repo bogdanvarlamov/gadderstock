@@ -36,3 +36,16 @@ D:\Development\5DSolutionsLLC\Software\_5DSolutions.Stocks\Desktop\obj\Release\R
 D:\Development\5DSolutionsLLC\Software\_5DSolutions.Stocks\Desktop\obj\Release\ResGen.write.1.tlog
 D:\Development\5DSolutionsLLC\Software\_5DSolutions.Stocks\Desktop\obj\Release\_5DSolutions.Stocks.Desktop.exe
 D:\Development\5DSolutionsLLC\Software\_5DSolutions.Stocks\Desktop\obj\Release\_5DSolutions.Stocks.Desktop.pdb
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Desktop\bin\Release\_5DSolutions.Stocks.Desktop.exe
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Desktop\bin\Release\_5DSolutions.Stocks.Desktop.pdb
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Desktop\obj\Release\ResolveAssemblyReference.cache
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Desktop\obj\Release\Window1.baml
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Desktop\obj\Release\Window1.g.cs
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Desktop\obj\Release\App.g.cs
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Desktop\obj\Release\_5DSolutions.Stocks.Desktop_MarkupCompile.cache
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Desktop\obj\Release\_5DSolutions.Stocks.Desktop.g.resources
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Desktop\obj\Release\_5DSolutions.Stocks.Desktop.Properties.Resources.resources
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Desktop\obj\Release\ResGen.read.1.tlog
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Desktop\obj\Release\ResGen.write.1.tlog
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Desktop\obj\Release\_5DSolutions.Stocks.Desktop.exe
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Desktop\obj\Release\_5DSolutions.Stocks.Desktop.pdb

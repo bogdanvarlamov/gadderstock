@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_5DSolutions.Stocks.Gadget"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_5DSolutions.Stocks.Business", "Business\_5DSolutions.Stocks.Business.csproj", "{1C603371-CFFD-4FAD-AF05-72D9C6F1A889}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_5DSolutions.Stocks.Presentation", "_5DSolutions.Stocks.Presentation\_5DSolutions.Stocks.Presentation.csproj", "{CD29AF9B-152E-46DC-9503-86738F23194E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_5DSolutions.Stocks.Presentation", "Presentation\_5DSolutions.Stocks.Presentation.csproj", "{CD29AF9B-152E-46DC-9503-86738F23194E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

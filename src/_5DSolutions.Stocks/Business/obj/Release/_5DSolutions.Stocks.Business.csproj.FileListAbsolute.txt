@@ -21,3 +21,10 @@ D:\Development\5DSolutionsLLC\Software\_5DSolutions.Stocks\Business\bin\Release\
 D:\Development\5DSolutionsLLC\Software\_5DSolutions.Stocks\Business\obj\Release\ResolveAssemblyReference.cache
 D:\Development\5DSolutionsLLC\Software\_5DSolutions.Stocks\Business\obj\Release\_5DSolutions.Stocks.Business.dll
 D:\Development\5DSolutionsLLC\Software\_5DSolutions.Stocks\Business\obj\Release\_5DSolutions.Stocks.Business.pdb
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Business\bin\Release\_5DSolutions.Stocks.Business.dll
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Business\bin\Release\_5DSolutions.Stocks.Business.pdb
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Business\bin\Release\_5DSolutions.Stocks.DataAccess.dll
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Business\bin\Release\_5DSolutions.Stocks.DataAccess.pdb
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Business\obj\Release\ResolveAssemblyReference.cache
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Business\obj\Release\_5DSolutions.Stocks.Business.dll
+D:\versioned\5D_solutions_llc\direct_development\stocks\src\_5DSolutions.Stocks\Business\obj\Release\_5DSolutions.Stocks.Business.pdb
