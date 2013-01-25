@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 using MvvmFoundation.Wpf;
 using _5DSolutions.Stocks.Business;
-using _5DSolutions.Stocks.DataAccess;
+
 
 namespace _5DSolutions.Stocks.Presentation.Wpf.ViewModels
 {
@@ -17,17 +17,10 @@ namespace _5DSolutions.Stocks.Presentation.Wpf.ViewModels
     {
         #region Private Memebers
 
-        YahooCSVStockDataProvider _provider;
-        YahooCSVConverter<StockViewModel> _converter;
-
-        string _pathToSaveFile = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + @"\5DSolutions\RoverStock\App_Data\App_State.xml";
-        uint _dataRefreshInterval = 5000;
-        string _newStockSymbol = string.Empty;
-
-        System.Threading.Timer _dataRefreshTimer;
-
         RelayCommand _addNewStockCommand;
-
+        System.Threading.Timer _dataRefreshTimer = null;
+        uint _dataRefreshInterval = 5000u;
+        string _newStockSymbol = string.Empty;
         #endregion
 
         #region Commands
@@ -78,8 +71,7 @@ namespace _5DSolutions.Stocks.Presentation.Wpf.ViewModels
 
         public StockPresenterViewModel()
         {
-            _provider = new YahooCSVStockDataProvider();
-            _converter = new YahooCSVConverter<StockViewModel>();
+
             Stocks = GetSavedStocks();
 
             _dataRefreshTimer = new System.Threading.Timer((state) =>
@@ -93,7 +85,7 @@ namespace _5DSolutions.Stocks.Presentation.Wpf.ViewModels
                         foreach (StockViewModel curStock in Stocks)
                         {
                             //assuming it is the first one
-                            var infos = _converter.GetStockInfoListFromString(_provider.GetLatestRawStockData(curStock.Symbol));
+                            var infos = Business.Stocks.GetMarketInfo<StockViewModel>(curStock.Symbol);
                             if (infos.Count() > 0)
                             {
                                 StockViewModel tmp = infos.First();
@@ -126,7 +118,7 @@ namespace _5DSolutions.Stocks.Presentation.Wpf.ViewModels
                     {
                         if (!Stocks.Any(stock => stock.Symbol.Equals(_newStockSymbol, StringComparison.InvariantCultureIgnoreCase)))
                         {
-                            foreach (StockViewModel curStock in _converter.GetStockInfoListFromString(_provider.GetLatestRawStockData(_newStockSymbol)))
+                            foreach (StockViewModel curStock in Business.Stocks.GetMarketInfo<StockViewModel>(_newStockSymbol))
                             {
                                 AddEventHandlers(curStock);
 
@@ -161,53 +153,20 @@ namespace _5DSolutions.Stocks.Presentation.Wpf.ViewModels
 
         private ObservableCollection<StockViewModel> GetSavedStocks()
         {
-            Uri uri = new Uri(_pathToSaveFile);
-            ObservableCollection<StockViewModel> toReturn = null;
-            XDocument xmlAppStateDoc = null;
+            ObservableCollection<StockViewModel> toReturn = new ObservableCollection<StockViewModel>();
 
-            if (System.IO.File.Exists(_pathToSaveFile))
-            {//load it
+            toReturn = Business.Stocks.LoadSavedStocks(toReturn.GetType()) as ObservableCollection<StockViewModel>;
 
-                //TODO: add some schema validation for the document to make sure its properly formatted, etc.
-                xmlAppStateDoc = XDocument.Load(_pathToSaveFile);
-
-                //serialize the xml to the appstate to return
-                XmlSerializer xs = new XmlSerializer(typeof(ObservableCollection<StockViewModel>));
-                toReturn = xs.Deserialize(xmlAppStateDoc.CreateReader()) as ObservableCollection<StockViewModel>;
-
-                foreach (StockViewModel curStock in toReturn)
-                {//subscribe to the events
-                    AddEventHandlers(curStock);
-                }
-            }
-            else
-            {//first time, lets create it...
-                if (System.IO.Directory.Exists(uri.LocalPath.Replace(uri.Segments.Last(), string.Empty)))
-                {
-                    //already there, the file is just gone...
-                }
-                else
-                {//make the dir
-                    System.IO.Directory.CreateDirectory(uri.LocalPath.Replace(uri.Segments.Last(), string.Empty));
-                }
-
-                //create a new appstate
-                toReturn = new ObservableCollection<StockViewModel>();
-
-                SaveAllStocks();
-
+            foreach (StockViewModel curStock in toReturn)
+            {//subscribe to the events
+                AddEventHandlers(curStock);
             }
 
             return toReturn;
         }
         private void SaveAllStocks()
         {
-
-            using (System.IO.FileStream tmp = System.IO.File.Create(_pathToSaveFile))
-            {
-                XmlSerializer xs = new XmlSerializer(typeof(ObservableCollection<StockViewModel>));
-                xs.Serialize(tmp, Stocks);//serialize the stocklist and save it
-            }
+            Business.Stocks.SaveAllStocks <ObservableCollection<StockViewModel>> (Stocks);
         }
 
         #endregion//Private Helper Methods

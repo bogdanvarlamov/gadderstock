@@ -115,13 +115,13 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Business\_5DSolutions.Stocks.Business.csproj">
+    <ProjectReference Include="..\Business\Business.csproj">
       <Project>{1C603371-CFFD-4FAD-AF05-72D9C6F1A889}</Project>
       <Name>_5DSolutions.Stocks.Business</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DataAccess\_5DSolutions.Stocks.DataAccess.csproj">
-      <Project>{3DA84282-210B-427C-8A52-5020D66A552D}</Project>
-      <Name>_5DSolutions.Stocks.DataAccess</Name>
+    <ProjectReference Include="..\CrossCutting\CrossCutting.csproj">
+      <Project>{CE5C9D82-9E04-4AA1-8EF3-5C69090BC16E}</Project>
+      <Name>CrossCutting</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
