@@ -150,7 +150,10 @@ namespace _5DSolutions.Stocks.Presentation.Wpf.ViewModels
         {
             get
             {
-                return (TotalMarketValue / TotalPurchaseCost) - 1;
+                if (TotalPurchaseCost != 0)
+                    return (TotalMarketValue / TotalPurchaseCost) - 1;
+                else
+                    return 0;
             }
         }
 

@@ -1,7 +1,7 @@
 ﻿<Window x:Class="_5DSolutions.Stocks.Desktop.Window1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
-    xmlns:vw="clr-namespace:_5DSolutions.Stocks.Presentation.Wpf.Views;assembly=_5DSolutions.Stocks.Presentation"
+    xmlns:vw="clr-namespace:_5DSolutions.Stocks.Presentation.Wpf.Views;assembly=Presentation"
     Title="GadderStock" Height="300" Width="300">
     <Grid>
         <Border BorderThickness="2">

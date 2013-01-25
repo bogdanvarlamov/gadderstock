@@ -19,7 +19,7 @@ namespace _5DSolutions.Stocks.Presentation.Wpf.ViewModels
 
         RelayCommand _addNewStockCommand;
         System.Threading.Timer _dataRefreshTimer = null;
-        uint _dataRefreshInterval = 5000u;
+        uint _dataRefreshInterval = 15 * 60000u; //only refresh every 15 minutes
         string _newStockSymbol = string.Empty;
         #endregion
 
